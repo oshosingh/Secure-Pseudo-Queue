@@ -1,6 +1,7 @@
 # *** Note
   While accessing the api, if you get connection refused, please mail at oshosingh25@gmail.com.
-  I will restart the server as soon as possible and will notify you.
+  I will restart the server as soon as possible and will notify you. I have used elastic ip for 
+  ec2 so nothing will change in the process.
   Thank you.
 
 # Secure-Pseudo-Queue

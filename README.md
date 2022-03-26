@@ -22,3 +22,10 @@ Implemented a Pseudo Queue that acts as a fake queue.
 Extras: <br />
 Exposed an api to get the list of all saved transactions. 
 API URL = http://127.0.0.1:8081/api/get/all/transactions
+
+
+### Build Steps
+    -> install Java runtime version 11
+    -> install mvn binary
+    -> To build the application, mvn clean install
+    

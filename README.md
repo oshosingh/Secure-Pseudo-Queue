@@ -10,6 +10,7 @@ Implemented a Pseudo Queue that acts as a fake queue.
 1. Spring Boot
 2. H2 In memory Database
 3. JPA
+4. AWS EC2 for deploying the application
 
 ## Folder Structure
 ### 1. Server/  

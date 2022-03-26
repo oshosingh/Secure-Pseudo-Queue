@@ -14,20 +14,20 @@ Implemented a Pseudo Queue that acts as a fake queue.
 
 ## Folder Structure
 ### 1. Server/  
-    -> POST API URL = http://3.111.213.192:8080/api/transaction/data  (accepts = transaction object in json format) 
+    -> POST API URL = http://43.204.8.156:8080/api/transaction/data  (accepts = transaction object in json format) 
     -> Created an API for accepting transaction object from the user. 
     -> Using AES encryption algorithm for encrypting the fields. 
     -> Using RestTemplate class for making an api request to the fake queue service. 
 
 ### 2. receiever/ (Fake Queue Application) <br />
-    -> POST API URL - http://3.111.213.192:8081/api/encrypted/data   (accepts = encrypted transaction object in json format) 
+    -> POST API URL - http://43.204.8.156:8081/api/encrypted/data   (accepts = encrypted transaction object in json format) 
     -> Created an API for accepting the encrypted transaction object from server application. 
     -> Decrypting AES encrypted transaction object. 
     -> After decryption, saving the transaction object in H2 database using JPA. 
    
 # Extras: <br />
 Exposed an api to get the list of all saved transactions. 
-API URL = http://3.111.213.192:8081/api/get/all/transactions
+API URL = http://43.204.8.156:8081/api/get/all/transactions
 This api can be used to check if the data was saved in the db or not.
 
 

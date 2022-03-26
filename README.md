@@ -28,4 +28,7 @@ API URL = http://127.0.0.1:8081/api/get/all/transactions
     -> install Java runtime version 11
     -> install mvn binary
     -> To build the application, mvn clean install
-    
+    -> After build do below steps to run the application:
+        For server application -> java -jar target/server-0.0.1-SNAPSHOT.jar
+        For receiver application (fake queue app) -> java -jar target/receiver-0.0.1-SNAPSHOT.jar
+        

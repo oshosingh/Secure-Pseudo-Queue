@@ -62,7 +62,7 @@ public class TransactionHandlerServiceImpl implements TransactionHandlerService 
 			
 			String response = sendDataToQueueServer(transactionData, iv);
 
-			return ResponseEntity.ok().body(response);
+			return ResponseEntity.ok().body("Data Saved Successfully");
 		} catch (NoSuchPaddingException | NoSuchAlgorithmException | InvalidKeySpecException
 				| InvalidAlgorithmParameterException | InvalidKeyException | IllegalBlockSizeException
 				| BadPaddingException e) {

@@ -1,3 +1,8 @@
+# *** Note
+  While accessing the api, if you get connection refused, please mail at oshosingh25@gmail.com.
+  I will restart the server as soon as possible and will notify you.
+  Thank you.
+
 # Secure-Pseudo-Queue
 Implemented a Pseudo Queue that acts as a fake queue.
 
@@ -19,9 +24,10 @@ Implemented a Pseudo Queue that acts as a fake queue.
     -> Decrypting AES encrypted transaction object. 
     -> After decryption, saving the transaction object in H2 database using JPA. 
    
-Extras: <br />
+# Extras: <br />
 Exposed an api to get the list of all saved transactions. 
 API URL = http://3.111.213.192:8081/api/get/all/transactions
+This api can be used to check if the data was saved in the db or not.
 
 
 ### Build Steps

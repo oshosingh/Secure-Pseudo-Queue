@@ -17,7 +17,7 @@ Implemented a Pseudo Queue that acts as a fake queue.
 ### 1. Server/  
     -> POST API URL = http://43.204.8.156:8080/api/transaction/data  (accepts = transaction object in json format) 
     -> Created an API for accepting transaction object from the user. 
-    -> Using AES encryption algorithm with Initialization verctor to increase security by making the pattern complex for encrypting the fields. 
+    -> Using AES encryption algorithm with Initialization verctor to encrypt the fields. 
     -> Using RestTemplate class for making an api request to the fake queue service. 
 
 ### 2. receiever/ (Fake Queue Application) <br />
